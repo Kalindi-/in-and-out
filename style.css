@@ -1,0 +1,37 @@
+
+body {
+	margin-bottom: 2.7em;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+
+.main {
+	margin: 0 auto;
+	text-align: center
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+h3 {
+	margin: 0.5em auto -0.07em;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+}
+
+#follow {
+	position:absolute;
+	height: 2.3em;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+    background-image: url("img/grass.png");
+    background-repeat: repeat-x;
+    height: 2.1em;
+    width: 100%;
+}
