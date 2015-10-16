@@ -9,6 +9,12 @@ body {
 	text-align: center
 }
 
+.more-info {
+	margin: 20px auto -10px;
+	font-size: 10px;
+	color: gray;
+}
+
 h2 {
 	margin-bottom: 0;
 }
@@ -20,6 +26,11 @@ h3 {
 
 a {
 	text-decoration: none;
+}
+
+.image {
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
 #follow {
