@@ -1,5 +1,5 @@
 var $mouseX = 0, $mouseY = 0;
-var $xp = 0, $yp = 0;
+var $xp = -10, $yp = 50;
 
 $(document).mousemove(function(e){
     $mouseX = e.pageX;
@@ -17,15 +17,10 @@ var $loop = setInterval(function(){
 	    var radians = Math.atan2($mouseX - center_x, $mouseY - center_y);
 	    var degree = (radians * (180 / Math.PI) * -1) - 90;
 
-
 	    $("#follow").css('-moz-transform', 'rotate('+degree+'deg)');
 	    $("#follow").css('-webkit-transform', 'rotate('+degree+'deg)');
 	    $("#follow").css('-o-transform', 'rotate('+degree+'deg)');
 	    $("#follow").css('-ms-transform', 'rotate('+degree+'deg)');
-	            $("#follow").css('filter', 'FlipH');
-        $("#follow").css('ms-filter', '"FlipH"');
-
-
 	}
 	$(document).mousemove(mouse);
 }, 30);
