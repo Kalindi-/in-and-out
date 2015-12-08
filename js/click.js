@@ -9,6 +9,5 @@ function whereFrom() {
     console.log(country_on_load)
     $.post( "/", { country: country_on_load } );
   });
-
 }
 window.addEventListener('load', whereFrom);

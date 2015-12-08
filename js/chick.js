@@ -26,7 +26,7 @@ var $loop = setInterval(function(){
 }, 30);
 
 
-
+// TODO: make chick flip depending on the part of the page it is on.
 
 // thanks to
 // http://stackoverflow.com/questions/3385936/jquery-follow-the-cursor-with-a-div/19708460#19708460
